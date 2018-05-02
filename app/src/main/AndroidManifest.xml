@@ -3,7 +3,11 @@
     package="com.londonappbrewery.climapm"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--use this because i am using  emulator -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--use this if i using  physic device
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>-->
 
     <application
         android:allowBackup="true"
